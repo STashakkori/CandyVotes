@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS votes;
+CREATE TABLE votes(
+       choice VARCHAR(1) NOT NULL ,
+       tally INTEGER(15) NOT NULL DEFAULT 0,
+       PRIMARY KEY(choice)  
+);

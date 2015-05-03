@@ -1,0 +1,30 @@
+body{
+    text-align:center;
+    padding-top:15px;
+    background-color:#EDEDED;    
+    position:absolute;
+    //font-size:40px;
+    padding-bottom:0;
+
+}
+
+div#title{
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size:45px;
+    //font-weight:bold;
+    color:#000000;
+    //color:#0544F2;
+    //text-shadow: 1.5px 1.5px 1.5px #0FD7FF;
+    text-shadow: 1px 2px 1px #ABABAB;
+}
+
+img{
+    margin-right: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 11px #757575;
+    border:20px transparent transparent;
+}
+
+img:hover{
+    opacity:0.6;
+}

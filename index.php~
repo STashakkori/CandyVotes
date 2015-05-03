@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="stylesheet" media="all" type="text/css" href="index.css">
+</head>
+<body>
+<div id="title">
+What type of candy should Dr. McRae stock up on?
+</div>
+<br>
+<div>
+</body>
+<p align="middle">
+<a href="option1.php" target="_blank"><img src="resources/fsnacks.jpg" alt="fsnacks" id="pic1" height="350px" width="350px" margin-right="50px" /></a>
+<a href="option2.php" target="_blank"><img src="resources/kitkat.jpg" alt="kitkat" height="350px" width="350px" id="pic2" margin-right="50px"/></a>
+<a href="option3.php" target="_blank"><img src="resources/mms.jpg" alt="mms" height="350px" width="350px" id="pic3" margin-right="50px" /></a>  
+<a href="option4.php" target="_blank"><img src="resources/rcups.jpg" alt="rcups" height="350px" width="350px" id="pic4" margin-right="50px" /></a>  
+<a href="option5.php" target="_blank"><img src="resources/skittles.jpg" alt="skittles" height="350px" width="350px" id="pic5 "margin-right="50px" /></a>  
+<a href="option6.php" target="_blank"><img src="resources/twix.jpg" alt="twix" height="350px" width="350px" id="pic6" margin-right="50px" /></a>  
+</div>
+
+</p>
+</html>

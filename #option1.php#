@@ -1,0 +1,48 @@
+<html>
+<head>
+<link rel="stylesheet" media="all" type="text/css" href="results.css">
+<script src="Chart.js"></script>
+<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+</head>
+<body>
+<div id="wrap">
+Your candy vote has been counted!!
+</div>
+<br>
+<canvas id="myChart" width="450" height="450"></canvas>
+<div id="mid">
+<?php
+  include("counter1.php");
+?>
+</p>
+<!-- The following script created a pie graph using the Chart.js library. The Chart.js file does not belong to me -->
+<!-- All credit goes to the rightful owners and creators of the Chart.js library for this piece. They rock! -->
+<script>
+
+function(){
+  
+var location = 'counter1.dat';
+var 
+
+var data = [
+            {
+            value: 30,
+            color:"#F38630",
+	    },
+            {
+            value : 50,
+            color : "#E0E4CC"
+            },
+            {
+            value : 100,
+            color : "#69D2E7"
+            }
+            ];
+
+var myPie = new Chart(document.getElementById("myChart").getContext("2d")).Pie(data);
+
+</script>
+<button onclick="window.location.href='http://compsci.appstate.edu/'">Leave Page</button>
+</div>
+</body>
+</html>
